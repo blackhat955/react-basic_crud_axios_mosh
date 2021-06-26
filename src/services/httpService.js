@@ -1,7 +1,9 @@
 import axios from "axios";
 import { toast }from 'react-toastify';
 import logger from './logService';
-
+// toast is function and you call the seprate error by toast.error() in place of simple alert 
+// or just use the toast in palce of alert 
+// use sentry.io for logging the error for this install raven-js package 
 
 axios.interceptors.response.use(null, error => {
   const expectedError =

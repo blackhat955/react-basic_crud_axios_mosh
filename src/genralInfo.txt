@@ -1,0 +1,6 @@
+=====>for the the showing the proper tosty notification we are using the react-toastify package 
+in javascript fuction are  OBJECT this is importent 
+// is yyou are at the localhost and try to access  the data from other domain the two request are sent  
+// from network which make our total process slow and also we are calling server first this will also  
+// cause the problem for this we are make server request later first do our job is any error will occure 
+// later then we wil fix the issue later and revert back the process
